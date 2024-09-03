@@ -58,7 +58,7 @@ export { renderFunc }
       // 输出动态导入模板
       // TODO: 需要修改路径
       const DynamicImportTemplate = `
-import { HMContext, IContentProvider } from 'path/to/hummer';
+import { HMContext, IContentProvider } from 'path/to/ohhummer';
 
 export class DynamicImportContentProvider implements IContentProvider {
 

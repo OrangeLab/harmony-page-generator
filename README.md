@@ -1,7 +1,9 @@
-# 使用示例
+# 鸿蒙页面模板插件
+
+## 使用示例
 ```
 const path = require('path')
-const HarmonyPagePlugin= require('@didi/harmony-page-generator')
+const HarmonyPagePlugin= require('@hummer/harmony-page-generator')
 
 module.exports = {
   type: 'hummer',
@@ -21,3 +23,4 @@ module.exports = {
   }
 }
 ```
+注意：需发包使用
